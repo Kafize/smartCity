@@ -1,0 +1,598 @@
+{
+	"pages": [//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				
+				"enablePullDownRefresh" : false,
+				"disableScroll": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+				"navigationStyle": "custom"  
+				        
+				
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				
+				"navigationBarTitleText": "注册"
+			}
+		},
+		
+		{
+			"path" : "pages/all/component",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/mine",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/volunteer/newsdetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "文章详细",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/job-hunting/job-hunting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "找工作",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/volunteer/volunteer",
+			"style" : 
+			{
+				"navigationBarTitleText" : "志愿服务",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/movie/movie",
+			"style" : 
+			{
+				"navigationBarTitleText" : "看电影",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/movie/moviedetail",
+			"style" : 
+			{
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+		},
+		{
+			"path" : "component/takeaway/takeaway",
+			"style" : 
+			{
+				"navigationBarTitleText" : "外卖订餐",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/takeaway/shopdetail",
+			"style" : 
+			{
+				"navigationStyle": "custom"  ,
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/takeaway/shopThemeid",
+			"style" : 
+			{
+				"navigationStyle": "custom"  ,
+				
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/takeaway/addAddress",
+			"style" : 
+			{
+				
+				"navigationStyle": "custom"  ,
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/citysubway/citysubway",
+			"style" : 
+			{
+				"navigationBarTitleText" : "城市地铁",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/citysubway/newsdetail",
+			"style" : 
+			{
+				"navigationStyle": "custom"  ,
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/citysubway/queryline",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"  ,
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/citysubway/lostfound",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"  ,
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/citysubway/carCard",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"  ,
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/citysubway/notice",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"  ,
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/stopcar/stopcar",
+			"style" : 
+			{
+				"navigationBarTitleText" : "停哪儿",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/stopcar/newsdetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"  ,
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/stopcar/parking",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom"  ,
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/stopcar/integral",
+			"style" : 
+			{
+				"navigationStyle": "custom"  ,
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/stopcar/mycar",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"  
+			}
+		},
+		{
+			"path" : "component/stopcar/recharge",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"  
+			}
+		},
+		{
+			"path" : "component/job-hunting/company-detail",
+			"style" : 
+			{
+				
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/outpatient/outpatient",
+			"style" : 
+			{
+				"navigationBarTitleText" : "门诊预约",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/outpatient/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/kitchen/kitchen",
+			"style" : 
+			{
+				"navigationBarTitleText" : "厨房助手",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/pet/pet",
+			"style" : 
+			{
+				"navigationBarTitleText" : "宠物医院",
+				"enablePullDownRefresh" : false
+				
+			}
+		},
+		{
+			"path" : "component/pet/petdoctor",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/logistics/logistics",
+			"style" : 
+			{
+				"navigationBarTitleText" : "物流查询",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/charity/charity",
+			"style" : 
+			{
+				"navigationBarTitleText" : "爱心捐赠",
+				"enablePullDownRefresh" : false
+			}
+		},
+		
+		{
+			"path" : "component/charity/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/charity/category",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/talents/talents",
+			"style" : 
+			{
+				"navigationBarTitleText" : "青年驿站",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/talents/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/talents/specific",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+					"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/talents/postdetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+					"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/rubbish/rubbish",
+			"style" : 
+			{
+				"navigationBarTitleText" : "垃圾分类",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/rubbish/newsdetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/rubbish/garbage-example",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/library/library",
+			"style" : 
+			{
+				"navigationBarTitleText" : "数字图书馆",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/library/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/law/law",
+			"style" : 
+			{
+				"navigationBarTitleText" : "法律资讯",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/law/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/government/government",
+			"style" : 
+			{
+				"navigationBarTitleText" : "政府服务热线",
+				"enablePullDownRefresh" : false
+			}
+		},
+		
+		{
+			"path" : "component/government/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/buslines/buslines",
+			"style" : 
+			{
+				"navigationBarTitleText" : "智慧巴士",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/buslines/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/livingment/livingment",
+			"style" : 
+			{
+				"navigationBarTitleText" : "生活缴费",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/activities/activities",
+			"style" : 
+			{
+				"navigationBarTitleText" : "活动管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/activities/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/traffic/traffic",
+			"style" : 
+			{
+				"navigationBarTitleText" : "智慧交管",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/livingment/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/livingment/category_detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "component/edu/edu",
+			"style" : 
+			{
+				"navigationBarTitleText" : "教育",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/data/data",
+			"style" : 
+			{
+				"navigationBarTitleText" : "数据分析",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/apply/apply",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/setting/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/feedback/feedback",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/logout/logout",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注销",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "component/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+		
+	],
+	"tabBar": {
+		"selectedColor": "#1296db",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/icon/home.png",
+				"selectedIconPath": "./static/icon/home-active.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/all/component",
+				"iconPath": "./static/icon/component.png",
+				"selectedIconPath": "./static/icon/component-active.png",
+				"text": "组件"
+			},
+			{
+				"pagePath": "pages/apply/apply",
+				"iconPath": "./static/icon/apply.png",
+				"selectedIconPath": "./static/icon/apply-active.png",
+				"text": "应用"
+				
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "./static/icon/mine.png",
+				"selectedIconPath": "./static/icon/mine-active.png",
+				"text": "我的"
+				
+				
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

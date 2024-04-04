@@ -1,0 +1,1 @@
+<view><u-navbar vue-id="6b985df2-1" title="{{theme}}" bgColor="#fff" placeholder="{{true}}" autoBack="{{true}}" bind:__l="__l"></u-navbar><view><takeaway-item vue-id="6b985df2-2" shopArray="{{themeidShop}}" bind:__l="__l"></takeaway-item></view></view>

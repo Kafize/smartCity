@@ -1,0 +1,14 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "home": "/component/home/home",
+    "movie": "/component/movie/movie",
+    "takeaway": "/component/takeaway/takeaway",
+    "citysubway": "/component/citysubway/citysubway",
+    "job-hunting": "/component/job-hunting/job-hunting",
+    "stopcar": "/component/stopcar/stopcar"
+  }
+}

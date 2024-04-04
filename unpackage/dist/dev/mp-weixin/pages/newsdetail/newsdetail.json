@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "文章详细",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image"
+  }
+}

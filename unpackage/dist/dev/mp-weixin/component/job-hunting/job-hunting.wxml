@@ -1,0 +1,1 @@
+<view><view style="padding:1rem;"><view class="company-item"><u--text vue-id="02aee567-1" text="我用十年青春,赴你最后之约" bind:__l="__l"></u--text><view style="padding:1rem;"><u--text vue-id="02aee567-2" text="我用十年青春,赴你最后之约" bind:__l="__l"></u--text></view></view></view></view>

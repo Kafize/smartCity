@@ -1,0 +1,15 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-col": "/uni_modules/uview-ui/components/u-col/u-col",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal"
+  }
+}

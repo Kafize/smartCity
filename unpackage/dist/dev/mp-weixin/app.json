@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/social/social",
+    "pages/serve/serve",
+    "pages/mine/mine",
+    "pages/newsdetail/newsdetail",
+    "component/job-hunting/job-hunting",
+    "component/home/home",
+    "component/movie/movie",
+    "component/movie/moviedetail",
+    "component/takeaway/takeaway",
+    "component/takeaway/shopdetail",
+    "component/takeaway/shopThemeid",
+    "component/takeaway/addAddress",
+    "component/citysubway/citysubway",
+    "component/citysubway/newsdetail",
+    "component/citysubway/queryline",
+    "component/citysubway/lostfound",
+    "component/citysubway/carCard",
+    "component/citysubway/notice",
+    "component/stopcar/stopcar",
+    "component/stopcar/newsdetail",
+    "component/stopcar/parking",
+    "component/stopcar/integral",
+    "component/stopcar/mycar",
+    "component/stopcar/recharge",
+    "pages/cardetail/cardetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/images/home.png",
+        "selectedIconPath": "./static/images/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/social/social",
+        "iconPath": "./static/images/socia.png",
+        "selectedIconPath": "./static/images/social-active.png",
+        "text": "友邻社交"
+      },
+      {
+        "pagePath": "pages/serve/serve",
+        "iconPath": "./static/images/serve.png",
+        "selectedIconPath": "./static/images/serve-active.png",
+        "text": "社区服务"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "./static/images/mine.png",
+        "selectedIconPath": "./static/images/mine-active.png",
+        "text": "数据分析"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

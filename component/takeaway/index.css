@@ -1,0 +1,24 @@
+/* 店家信息布局的样式 */
+.takeaway-article{
+	margin: .5rem 0;
+	font-size: .8rem;
+	color:#606266;
+	}
+.takeaway-article-flex{
+	color: #909193;
+	display: flex;
+}
+.takeaway-article-flex view{
+	padding-right:20rpx;
+}
+.rate-font{
+	color: #f1a532;
+	font-size: .9rem;
+	font-weight: bold;
+}
+.takeaway-item{
+		background-color: #fff;
+		border-radius: 10rpx;
+		padding: .5rem;
+		margin: .5rem;
+	}
